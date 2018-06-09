@@ -4,6 +4,15 @@
     <TargetFrameworks>monoandroid81</TargetFrameworks>
     <RootNamespace>ReactiveUI.Routing.Android</RootNamespace>
     <AssemblyName>ReactiveUI.Routing.Android</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>kgowdy</Authors>
+    <Company>kgowdy</Company>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageProjectUrl>https://github.com/KallynGowdy/ReactiveUI.Routing</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/KallynGowdy/ReactiveUI.Routing/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>Experiments with routing in ReactiveUI</Description>
+    <PackageTags>ReactiveUI</PackageTags>
   </PropertyGroup>
   
   <ItemGroup>
