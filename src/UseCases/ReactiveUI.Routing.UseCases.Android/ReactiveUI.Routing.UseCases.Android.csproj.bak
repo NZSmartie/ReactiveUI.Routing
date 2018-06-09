@@ -17,7 +17,7 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -115,7 +115,7 @@
       <Version>10.0.3</Version>
     </PackageReference>
     <PackageReference Include="reactiveui">
-      <Version>8.0.0-alpha0073</Version>
+      <Version>8.0.0-alpha0109</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.v4">
       <Version>25.4.0.1</Version>

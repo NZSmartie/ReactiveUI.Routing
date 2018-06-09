@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Routing.WPF", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Routing.UseCases.Android", "src\UseCases\ReactiveUI.Routing.UseCases.Android\ReactiveUI.Routing.UseCases.Android.csproj", "{D037E47F-C95D-4094-94D4-247539A1CB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Routing.Android", "src\ReactiveUI.Routing.Android\ReactiveUI.Routing.Android.csproj", "{FE6E1025-B5BB-4990-865D-BABDBC2D1B71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveUI.Routing.Android", "src\ReactiveUI.Routing.Android\ReactiveUI.Routing.Android.csproj", "{FE6E1025-B5BB-4990-865D-BABDBC2D1B71}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveUI.Routing.UseCases.Common", "src\UseCases\ReactiveUI.Routing.UseCases.Common\ReactiveUI.Routing.UseCases.Common.csproj", "{29945146-930F-4B67-8ED5-AA6FA3E0D81C}"
 EndProject
@@ -24,6 +24,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Routing.UWP", "src\ReactiveUI.Routing.UWP\ReactiveUI.Routing.UWP.csproj", "{9BBD3C33-FD86-46CE-8A7C-8CA504BD901F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveUI.Routing.UWP.Tests", "src\ReactiveUI.Routing.UWP.Tests\ReactiveUI.Routing.UWP.Tests.csproj", "{EE28C139-C080-4528-9767-D52254366F40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F33F4CE1-2CA1-48E8-A2E9-34FE2626548D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{36267C32-D289-447B-B42E-867A65A7F13E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -218,10 +228,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{A331C299-3723-4C2D-913F-4DEBC75AB2EF} = {36267C32-D289-447B-B42E-867A65A7F13E}
 		{F552E957-CA53-44FA-B99C-51F769194935} = {8A4BA231-C203-4764-AA37-18E48EE9F394}
 		{D037E47F-C95D-4094-94D4-247539A1CB81} = {8A4BA231-C203-4764-AA37-18E48EE9F394}
 		{29945146-930F-4B67-8ED5-AA6FA3E0D81C} = {8A4BA231-C203-4764-AA37-18E48EE9F394}
 		{CEBDF50A-2E25-46BF-A1B2-0E6DA0E559D9} = {8A4BA231-C203-4764-AA37-18E48EE9F394}
+		{EE28C139-C080-4528-9767-D52254366F40} = {36267C32-D289-447B-B42E-867A65A7F13E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {528ECDBA-50EA-4624-AEA4-98063A88FF21}
